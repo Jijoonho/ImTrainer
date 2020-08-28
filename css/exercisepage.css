@@ -1,0 +1,14 @@
+html, body{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+iframe{
+    position:fixed;
+    bottom:0;
+    height:50vh;
+    width:100vw;
+    padding:0;
+    margin:0;
+}
