@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/exercise.css">
+    <script defer src="javascript/Exercise.js" type="text/javascript"></script>    
+    <title> 운동리스트 </title>
+
+    </head>
+
+    <body>
+        <div id="navbar">
+        <a href="#default" id="logo">운동리스트</a>
+        <div id="navbar-keft">
+        <a class="active" href="exercise.html">전체</a>
+        <a href="shoulder.html">어깨</a>
+        <a href="chset.html">가슴</a>
+        <a href="back.html">등</a>
+        <a href="abs.html">복근</a>
+        <a href="arm.html">팔</a>
+        <a href="hip.html">엉덩이</a>
+        <a href="lower.html">하체</a>
+        <a href="whole.html">전신</a>
+        </div>
+        </div>
+           <div id="all">
+            <p>어깨(바디웨이트)</p>
+            <p>플란체 기울이기(Planche Lean)</p>
+            <p>라운드 숄더 스트레칭(Round Shoulder Stretching)</p>
+            <p>홀바디 숄더(Whole Body Shoulder)</p>
+            <p>핸드 스탠드 푸쉬업(Hand Stand Pushup)</p>
+            <p>머신 비하인드 넥프레스(Machine Behind Neck Press)</p>
+            <p>플레이트 로디드 숄더프레스(Plate Loaded Shoulder Press) </p>
+            <p>레터럴(델토이드) 레이즈머신(Machine Lateral(Detoid)Raise)</p>
+            <p>로테이터 커프(Rotator Cuff)</p>
+            <p>리버스 플라이머신(Renerse Fly Machine)</p>
+            <p>숄더프레스 머신(Shoulder Press)</p>
+            <p>플레이트 프론트 트위스트(Plate Front Twist)</p>
+            <p>덤벨 리얼델토이드 플라이(Rear Deltoid Fly)</p>
+            <p>플레이트 프런트 레이즈(Plate Front Raise)</p>
+            <p>덤벨 벤트 오버 레이즈(Dumbbell Bentover Raise)</p>
+            <p>덤벨 업라이트 로우(Dumbbell Upright Row)</p>
+            <p>덤벨 리얼 델토이 레이즈(Dumbbell Rear Deltoid Raise)</p>
+            <p>덤벨 사이드 레터럴 레이즈(Dumbbell Side Lateral Raise)</p>
+            <p>덤벨 프론트 레이즈(Dumbbell Front Raise)</p>
+            <p>덤벨 아놀드 프레스(Dumbbell Arnold Press)</p>
+            <p>덤벨 숄더 프레스(Dumbbell Shoulder Press)</p>
+            <p>오버헤드 프레스(Overhead Press)</p>
+            <p>와이드 업라이트 로우(Wide Upright Row)</p>
+            <p>바벨 프론트 레이즈(Barbell Front Raise)</p>
+            <p>비하인드 쉬러그(Behind Shrug)</p>
+            <p>비하인드 넥 프레스(Behind Neck Press)</p>
+            <p>바벨 리얼 델토이 레이즈(Barbell Rear Deltoid Raise)</p>
+            <p>바벨 업라이트 로우(Barbell Upright Row)</p>
+            <p>바벨 프론트 레이즈(Barbell Front Raise)</p>
+            <p>밀리터리 프러스(숄더프레스) (Barbell Military Press)</p>
+            <p>케틀벨 헤일로(Kettlebell Around The Head)</p>
+            <p>케틀벨 프레스(Kettlebell Press)</p>
+            <p>페이스풀(Face Pull)</p>
+            <p>케이블 리버스 플라이(Cable Reverse Fly)</p>
+            <p>케이블 벤트오버 레터럴 레이즈(Cable Bentover Lateral Raise)</p>
+            <p>케이블 레터럴 레이즈(Cable Lateral Raise)</p>
+            <p>케이블 프런트 레이즈(Cable Front Raise)</p>
+            <p>밴드 아놀드 프레스(Band Arnold Press)</p>
+            <p>밴드 숄더 익스터널 로테이션(Band Shoulder External Rotation)</p>
+            <p>밴드 숄더 프레스(Band Shoulder Press)</p>
+            <p>밴드 벤트오버 레이즈(Band Bentover Raise)</p>
+            <p>밴드 업라이트 로우(Band Upright Row)</p>
+            <p>밴드 레터럴 레이즈(Band Lateral Raise)</p>
+            <p>밴드 프론트 레이즈(Band Front Raise)</p>
+            <p>스미스머신 밀리터리 프레스(SmithMachine Military Press)</p>
+            <p>스미스머신 업라이트 로우(SmithMachine Upright Row)</p>
+            <p>스미스머신 비하인드 넥 프레스(SmithMachine Behind Neck Press)</p>
+            <p>스미스머신 숄더 프레스(SmithMachine Shoulder Press)</p>
+            <p>플레이드 업라이트 로우(Plate Upright Row)</p>
+            <p>헤일로(Halo)</p>
+            <p>플레이트 프론트 레이즈(Plate Front Raise)</p>
+            <p>가슴(바디웨이트)</p>
+            <p>웨이티드 딥스(Weighted Dips)</p>
+            <p>웨이브 푸쉬업(Wave Push Up)</p>
+            <p>세븐 푸쉬업(Seven Push Up)</p>
+            <p>X-푸쉬업(X-Push Up)</p>
+            <p>다이아몬드 푸쉬업(Diamond Push Up)</p>
+            <p>인클라인 푸쉬업(Incline Push Up)</p>
+            <p>디클라인 푸쉬업(Decline Push Up)</p>
+            <p>스콜피온 푸쉬업(Scorpion Push Up)</p>
+            <p>아처 푸쉬업(Archer Push Up)</p>
+            <p>푸쉬업 로테이션(Push Up Rotation)</p>
+            <p>와이드 푸쉬업(Wide Push Up)</p>
+            <p>힌두 푸쉬업(Hindu Push Up)</p>
+            <p>푸쉬업 위드 타월(Push Up With Towel)</p>
+            <p>월푸쉬업(Wall Push Up)</p>
+            <p>푸쉬업 플러스(Push Up Plus)</p>
+            <p>메디신볼 플리오 푸쉬업(Medicine Ball Plyo Push Up)</p>
+            <p>스파이더 푸쉬업(Spider Push Up)</p>
+            <p>클로즈 핸드 푸쉬업(Closed Hand Push Up)</p>
+            <p>클래핑 푸쉬업(Clapping Push Up)</p>
+            <p>푸쉬업밸런스(Push Up Balance)</p>
+            <p>푸쉬업(Push Up)</p>
+            <p>가슴(머신)</p>
+            <p>해머 밴치 프레스(Hammer Bench Press)</p>
+            <p>플레이트 로디드 디클라인 벤치프레스(Plate Loaded Decline Bench Press)</p>
+            <p>플레이트 로디드 인클라인(Plate Loaded Incline ChestPress)</p>
+            <p>머신딥스(Machine Dips)</p>
+            <p>머신 어시스티디 딥스(Machine Assisted Dips)</p>
+            <p>머신 디클라인 체스트 프레스(Machine Decline Chest Press)</p>
+            <p>머신 인클라인 체스트 프레스(Machine Incline Chest Press)</p>
+            <p>체스트 플라이(펙덱플라이)(Chest Fly)(Pec Deck Fly)</p>
+            <p>체스트 프레스 머신(Chest Press Machine)</p>
+            <p>가슴(덤벨)</p>
+            <p>덤벨 디클라인 플라이(Dumbbell Decline Fly)</p>
+            <p>디클라인 덤벨 플라이(Dechine Dumbbell Fly)</p>
+            <p>내로우 그립 덤벨 인클라인(Narrow Grip Dumbbell Incline)</p>
+            <p>덤벨 인클라인 플라이(Dumbbell Incline Fly)</p>
+            <p>덤벨 플라이(Dumbbell Fly)</p>
+            <p>덤벨 디클라인 벤치프레스(Dumbbell Decline Bench Press)</p>
+            <p>덤벨 인클라인 벤치프레스(Dumbbell Incline Bench Press)</p>
+            <p>덤벨 풀오버(Dumbbell Pullover)</p>
+            <p>덤벨 벤치프레스(Dumbbell Bench Press)</p>
+            <p>가슴(바벨)</p>
+            <p>정지 벤치프레스(Paused Bench Press)</p>
+            <p>리버스 그립 바벨 벤치프레스(Reverse Grip Barbell Bench Press)</p>
+            <p>바벨 디클라인 벤치프레스(Barbell Decline Bench Press)</p>
+            <p>바벨 인클라인 벤치프레스(Barbell Incline Bench Press)</p>
+            <p>바벨 풀오버(Barbell Pullover)</p>
+            <p>가슴(케틀벨)</p>
+            <p>케틀벨 플리오 푸쉬업(Kettlebell Plyo Push Up)</p>
+            <p>가슴(케이블)</p>
+            <p>인클라인 케이블 크로스오버(Incline Cable Crossover)</p>
+            <p>디클라인 케이블 크로스오버(Decline Cable Crossover)</p>
+            <p>원암 케이블 플라이(One-arm Cable Fly)</p>
+            <p>케이블 오버(Cable Pullover)</p>
+            <p>케이블 크로스오버(케이블 플라이)(Cable Crossover (Cable Fly)</p>
+            <p>가슴(밴드)</p>
+            <p>밴드 플라이(Band Fly)</p>
+            <p>밴드 푸쉬업(Band Push Up)</p>
+            <p>밴드 체스트 프레스(Band Chest Press)</p>
+            <p>가슴(TRX)</p>
+            <p>TRX 푸쉬업(TRX Push Up)</p>
+            <p>TRX 어토믹 푸쉬업(TRX Atomic Push Up)</p>
+            <p>가슴(스미스머신)</p>
+            <p>스미스 인클라인 벤치프레스(Smith Incline Bench Press)</p>
+            <p>스미스 디클라인 벤치프레스(Smith Decline Bench Press)</p>
+            <p>스미스 벤치 프레스(Smith Bench Press)</p>
+            <p>가슴(짐볼)</p>
+            <p>짐볼 푸쉬업(Gymball Push Up)</p>
+            <p>가슴(메디신볼)</p>
+            <p>MB 푸쉬업(MB Push Up)</p>
+            <p>등(바디웨이트)</p>
+            <p>패러럴 그립 풀업(Parallel Grip Pull Up)</p>
+            <p>웨이티드 풀업(Weighted Pull Up)</p>
+            <p>라잉로우(Lying Row)</p>
+            <p>와이드 그립 풀업(Wide Grip Pull Up)</p>
+            <p>슈퍼맨 위드 숄더 스퀴즈(Superman with Shoulder Sqeeze)</p>
+            <p>바디로우(Body Row)</p>
+            <p>웨이티드 친업(Weighted Chin Up)</p>
+            <p>슈퍼맨 홀드(Superman Hold)</p>
+            <p>밴드 어시스티드 풀업(Band Assisted Pull Up)</p>
+            <p>점핑풀업(Jumping Pull Up)</p>
+            <p>플로어 와이 레이즈(Floor Y Raise)</p>
+            <p>아처풀업(Archer Pull Up)</p>
+            <p>프론 코브라(Prone Cobra)</p>
+            <p>웨이티드 백 익스텐션(Weighted Back Extension)</p>
+            <p>내로우 그립 풀업(Narrow Grip Pull Up)</p>
+            <p>굿모닝 엑서사이즈(GoodMorning Exercise)</p>
+            <p>밸런스 터치 플로어(Balance Touch Floor)</p>
+            <p>친업(Chin Up)</p>
+            <p>스위밍(Swimming)</p>
+            <p>슈퍼맨(Superman)</p>
+            <p>풀업(Pull Up)</p>
+            <p>굿모닝 엑서사이즈(Goodmorning Exercise)</p>
+            <p>등(머신)</p>
+            <p>레터럴 로우 머신(Lateral Row Machine)</p>
+            <p>리어 델트 머신(Rear Delt Machine)</p>
+            <p>스탠딩 케이블 로우(Standing Cable Row)</p>
+            <p>와이드 풀 다운(Wide Pull Down)</p>
+            <p>플레이트 로디드 로우로우(Plate Loaded Low Low)</p>
+            <p>와이드 그립 랫풀다운(Widegrip Lat Pull Down)</p>
+            <p>로디드 시티드 로우머신(Plate Loaded Seated Row Machine)패러럴 그립 풀업(Parallel Grip Pull Up)</p>
+            <p>프런트 랫풀 다운(Front Lat Pull Down)</p>
+            <p>풀다운(Pull Down)</p>
+            <p>미드 로우(Mid Row)</p>
+            <p>하이로우머신(High Low Machine)</p>
+            <p>시티드케이블로우(롱풀)(Seated cable Row(Long Pull))</p>
+            <p>패러럴 그립 랫풀 다운(Parrell Grip Lat Pull Down)</p>
+            <p>비하인드 넥 풀 다운(Behind Neck Pull Down)</p>
+            <p>리버스 그립 랫 풀 다운(Reverse Grip Lat Pull Down)</p>
+            <p>클로즈 그립 랫 풀 다운(Closegrip Lat Pull Down)</p>
+            <p>머신 풀오버(Machine Pull Over)</p>
+            <p>머신 리버스 플라이(Machine Reverse Fly)</p>
+            <p>머신 백 익스텐션(Machine Back Extension)</p>
+            <p>티 바 로우(T-Bar Row)머신 어시스티드 풀업(Machine Assisted Pull Up)</p>
+            <p>케이블 로우(Cable Row)</p>
+            <p>랫풀 다운(Lat Pull Down)</p>
+            <p>등(덤벨)</p>
+            <p>투 암 덤벨 로우(Two Arm Dumvvell Row)</p>
+            <p>덤벨 레니게이드 로우(Dumbbell Renegada Row)</p>
+            <p>원암덤벨로우(덤벨원암로우)(Dumbbell One Arm Row)</p>
+            <p>덤벨 데드리프트(Dumbbell DeadLift)</p>
+            <p>덤벨 벤트오버 로우(Dumbbell Bentover Row)</p>
+            <p>덤벨 쉬러그(Dumbbell shrug)</p>
+            <p>등(바벨)</p>
+            <p>티바로우(T-Bar Row)</p>
+            <p>랙풀(Rack Pull)</p>
+            <p>클로즈 그립 바벨로우(Close Grip Barbell Row)</p>
+            <p>루마니안 데드리프트(Romanian DeadLift)</p>
+            <p>팬들레이로우(Pendlay Row)</p>
+            <p>원 레그 데드리프트(One Leg DeadLift)</p>
+            <p>스모 데드리프트(Sumo DeadLift)</p>
+            <p>바벨 굿모닝(Barbell GoodMorning)</p>
+            <p>바벨 데드리프트(Bar DeadLift)</p>
+            <p>바벨 벤트오버로우(Barbell Bentover Row)</p>
+            <p>바벨 쉬러그(Barbell Shrug)</p>
+            <p>등(케틀벨)</p>
+            <p>케틀벨 데드리프트(Kettlebell DeadLift)</p>
+            <p>케틀벨 레니게이드 로우(Kettlebell Renegade Row)</p>
+            <p>케틀벨 로우(Kettlebell Row)</p>
+            <p>등(케이블)</p>
+            <p>케이블 시티드 로우(Cable Seated Row)</p>
+            <p>스탠딩 케이블 로우(Standing Cable Row)</p>
+            <p>원 암 케이블 풀 다운(One Arm Cable Pull Down)</p>
+            <p>원 암 케이블 로우(One Arm Cable Row)</p>
+            <p>케이블 랫풀 다운(Cable Lat Pull Down)</p>
+            <p>케이블 하이 로우(Cable High Row)</p>
+            <p>케이블 스트레이트 암 풀 다운(Cable Straight Arm Pull Down)</p>
+            <p>등(밴드)</p>
+            <p>싱글 암 밴드 로우 로테이션(Single Arm Band Row Rotation)</p>
+            <p>밴드 비하인드 풀 다운(Band Behind Pull Down)</p>
+            <p>밴드 시티드 로우(Band Seated Row)</p>
+            <p>밴드 데드리프트(Band DeadLift)</p>
+            <p>밴드 벤트오버 로우(Band Bentover Row)</p>
+            <p>등(TRX)</p>
+            <p>TRX 로우(TRX Row)</p>
+            <p>등(스미스머신)
+            <p>스미스머신 풀업(Smith Machine Pull Up)</p>
+            <p>스미스머신 데드리프트(Smith Machine DeadLift)</p>
+            <p>스미스머신 벤트오버 로우(Smith Machine Bentover Row)</p>
+            <p>복근(바이웨이트)</p>
+            <p>클로이팅 복근(Abs Workout Cgallenge)</p>
+            <p>제이제이 복근운동(Abdominal Workout)</p>
+            <p>트위스트 싯업(Twist Sit Up)</p>
+            <p>플랭크(Plank)</p>
+            <p>디클라인 싯업(Decline Sit UP)</p>
+            <p>싱글 레그레이즈(Single Leg Raise)</p>
+            <p>헌드레드(Hundred)</p>
+            <p>쓰리포인트 크런치(Three Point Crunch)</p>
+            <p>크런치 레그 레이즈(Crunch Leg Raise)</p>
+            <p>브이업 위드 니 익스텐션(V-UP With Knee Extension)</p>
+            <p>스탠딩 사이드 크런치(Standing Side Crunch)</p>
+            <p>플랭크 니 턱(Plank Knee Tuck)</p>
+            <p>힐 터치(Heel Touch)</p>
+            <p>사이클링 러시안 트위스트(Cycling russian twist)</p>
+            <p>바이시클 크런치(Bycycle Crunch)</p>
+            <p>드래곤 플래그(Dragon Flag)</p>
+            <p>리버스 크런치(Reverse Crunch)</p>
+            <p>스타피쉬 크런치(Starfish Crunch)</p>
+            <p>윈드밀(WindMils)</p>
+            <p>시커킥(Sissor Kicks)</p>
+            <p>사이드 크런치(Side Crunch)</p>
+            <p>웨이티드 싯 업(Weighted Sit Up)</p>
+            <p>플러터킥(Flutter Kick)</p>
+            <p>더블탭 트위스트 크런치(Double Tap Twist Crunch)</p>
+            <p>크런치 홀드(Crunch Hold)</p>
+            <p>짐볼 브이업(Gymball V-UP)</p>
+            <p>짐볼 크런치(Gymball Crunch)</p>
+            <p>러시안 트위스트(Russian Twist)</p>
+            <p>로잉앱스(Rowing Abs)</p>
+            <p>타올 슬라이드(Towel Slude)</p>
+            <p>핸드 킥(Hand Kick)</p>
+            <p>토즈투 스카이(Toes To Sky)</p>
+            <p>토우터치(Toe Touches)</p>
+            <p>오블리크 크런치(Oblique Crunch)</p>
+            <p>바이시클(Bicycle)</p>
+            <p>시티드 벤치 니업(Seated Bench Knee Up)</p>
+            <p>토투바(Toe To Bar)</p>
+            <p>니투바(Knee To Bar)</p>
+            <p>와이퍼(Wiper)</p>
+            <p>버티컬 레그레이즈(vertical Leg Raise)</p>
+            <p>행잉 레그레이즈(Hanging Leg Raise)레그레이즈(Lge Raise)</p>
+            <p>브이업(V-UP)</p>
+            <p>싯업(Sit Up)</p>
+            <p>씨 크런치(C-Crunch)</p>
+            <p>크런치(Crunch)</p>
+            <p>복근(머신)</p>
+            <p>업도미널 크런치(Abdominal Crunch)</p>
+            <p>AB코스터(AB Coster)</p>
+            <p>스키에르그(Skierg)</p>
+            <p>백 익스텐션 사이드밴드(Back Extension SideBand)</p>
+            <p>머신 크런치(Machine Crunch)</p>
+            <p>복근(덤벨)</p>
+            <p>덤벨 아이드밴드(Dumbell Side Bends)</p>
+            <p>복근(바벨)</p>
+            <p>바벨 앱 롤 아웃(Barbell Ab Rollout)</p>
+            <p>복근(케틀벨)</p>
+            <p>케틀벨 사이드 딥(Kettlebell Side Dip)</p>
+            <p>케틀벨 러시안 트위스트(Kettlebell Russian Twist)</p>
+            <p>복근(케이블)</p>
+            <p>케이블 닐링 풀 다운(Cable Kneeling Pull Down)</p>
+            <p>케이블 크런치(Cable Crunch)</p>
+            <p>복근(TRX)</p>
+            <p>TRX 사이드 크런치(TRX Side Crunch)</p>
+            <p>TRX 앱 컬(TRX Ab Curl)</p>
+            <p>복근(메디신볼)</p>
+            <p>MB러시안 트위스트(MB Russian Twist)</p>
+            <p>삼두(바디웨이트)</p>
+            <p>러시안 푸쉬업(Russian Push Up)</p>
+            <p>불가리안 링 딥스(Bulgarian Ring Dips)</p>
+            <p>웨이티드 딥스(Weighted Dips)</p>
+            <p>트라이셉스 딥스(Triceps Dips)</p>
+            <p>벤치딥스(Bench Dips)</p>
+            <p>삼두(머신)</p>
+            <p>트라이셉스 익스텐션 머신(Triceps Extension)</p>
+            <p>머신딥스(Machine Dips)</p>
+            <p>삼두(덤벨)</p>
+            <p>인클라인 암 킥 백(Inclined Arm KickBack)</p>
+            <p>오버헤드 덤벡 익스텐션(OverHead Dumbbell Extension)</p>
+            <p>덤벨 킥 백(Dumbbell Kick Back)</p>
+            <p>덤벨 원암 익스텐션(Dumbbell Arm Extension)</p>
+            <p>삼두(바벨)</p>
+            <p>오버헤드 트라이셉스 익스텐션(Overhead Triceps Extension)</p>
+            <p>내로우 그립 바벨 프레스(Narrow Grip Barbell Press)</p>
+            <p>바벨 트라이셉스 익스텐션(Barbell Tricpse Extension)</p>
+            <p>삼두(케이블)</p>
+            <p>원암 케이블 트라이셉스 푸쉬다운(One Arm Cable Triceps Push Down)</p>
+            <p>로프 푸쉬 다운(Rope Push Down)</p>
+            <p>리버스 그립 케이블 푸쉬 다운(Reverse Grip Cable Push Down)</p>
+            <p>케이블 트라이셉스 푸쉬다운(Cable Rope Triceps Push Down)</p>
+            <p>케이블 트라이셉스 익스텐션(Cable Triceps Extension)</p>
+            <p>삼두(밴드)</p>
+            <p>밴드 푸쉬 다운(Band Push Down)</p>
+            <p>밴드 트라이셉스 익스텐션(Band Triceps Extension)</p>
+            <p>밴드 킥 백(Band Kick Back)</p>
+            <p>이두(바디웨이트)</p>
+            <p>네거티브풀업(Negative Pull Up)</p>
+            <p>이두(머신)</p>
+            <p>머신 바이셉 컬(Machine Bicep Curl)</p>
+            <p>머신 프리쳐컬(Machine Preacher Curl)</p>
+            <p>이두(덤벨)</p>
+            <p>라잉 덤벨 컬(Lying Dumbbell Curl)</p>
+            <p>인클라인 덤벨 컬(Incline Dumbbell Curl)</p>
+            <p>덤벨 컨센트레이션 컬(Dumbbell Concentration Curl)</p>
+            <p>덤벨 해머컬(Dumbbell Hammer Curl)</p>
+            <p>덤벨 바이셉컬(Dumbbell Bicep Curl)</p>
+            <p>이두(바벨)</p>
+            <p>이지바컬(EZ-Bar Curl)</p>
+            <p>인클라인 바벨 컬(Inchine Barbell Curl)</p>
+            <p>드래그 컬(Drag Curl)</p>
+            <p>리버스 컬(Reverse Curl)</p>
+            <p>바벨 프리쳐 컬(Barbell Preacher Curl)</p>
+            <p>바벨 바이셉 컬(Barbell Bicep Curl)</p>
+            <p>이두(케이블)</p>
+            <p>케이블 해머 컬(Cable Hammer Curl)</p>
+            <p>케이블 오버헤드 컬(Cable OverHead Curl)</p>
+            <p>케이블 컬(Cable Curl)</p>
+            <p>이두(밴드)</p>
+            <p>밴드 해머 컬(Band Hammer Curl)</p>
+            <p>밴드 암 컬(Band Arm Curl)</p>
+            <p>이두(스미스머신)</p>
+            <p>스미스머신 바이셉 컬(Smithmachine Bicep Curl)</p>
+            <p>전완(바디웨이트)</p>
+            <p>리스트 롤러(Wrist Roller)</p>
+            <p>전완(덤벨)</p>
+            <p>덤벨 슈피네이션(Dumbbell Supination)</p>
+            <p>덤벨 프로네이션(Dumbbell Pronation)</p>
+            <p>덤벨 리스트 컬(Dumbbell Wrist Curl)</p>
+            <p>덤벨 리버스 리스트 컬(Dumbbell Reverse Wrist Curl)</p>
+            <p>덤벨 뉴트럴 리스트 컬(Dumbbell Neutral Wrist Curl)</p>
+            <p>전완(바벨)</p>
+            <p>비하인드 리스트 컬(Behind Wrist Curl)</p>
+            <p>바벨 리버스 리스트 컬(Barbell Reverse Wrist Curl)</p>
+            <p>바벨 리스트 컬(Barbell Wrist Curl)</p>
+            <p>엉덩이(바이웨이트)</p>
+            <p>브릿지 홀드(Bridge Hold)</p>
+            <p>힙 런지(Hip Lunge)</p>
+            <p>힙 스퀴즈(Hip Squeeze)</p>
+            <p>리버스 힙 레이즈(Reverse Hip Raise)</p>
+            <p>짐볼 힙 쓰러스트(Gymball Hip Thrust)</p>
+            <p>글루트 햄 레이즈(Glute Ham Raise)</p>
+            <p>동키킥(Donkey Kick)</p>
+            <p>스탠딩 힙 어브덕션(Standing Hip Abduction)</p>
+            <p>라잉 힙 어브덕션(Lying Hip Abduction)</p>
+            <p>브릿지(Bridge)</p>
+            <p>체어브릿지(Chair Bridge)</p>
+            <p>브릿지 원 레그(Bridge One Leg)</p>
+            <p>리버스 하이퍼 벤치(Reverse Hyper On Flat Bench)</p>
+            <p>글루트 킥 백(Glute Kick Back)</p>
+            <p>브릿지 워킹(Bridge Walking)</p>
+            <p>엉덩이(머신)</p>
+            <p>브이백 스쿼트(V-Back Squat)</p>
+            <p>힙 프레스 머신(Hip Press Machine)</p>
+            <p>멀티 힙 머신(Multi Hip Machine)</p>
+            <p>브이 스쿼트(V-Squat)</p>
+            <p>힙 어브덕션(Hip Abduction)</p>
+            <p>글루트 아이솔레이터(Glute Isolator)</p>
+            <p>힙 어덕션(Hip Adduction)</p>
+            <p>엉덩이(덤벨)</p>
+            <p>덤벨 스티프 데드리프트(Dumbbell Stiff Leg DeadLift)</p>
+            <p>엉덩이(바벨)</p>
+            <p>바벨 닐링 스쿼트(Barbell Kneeling Squat)</p>
+            <p>바벨 힙 쓰러스트(Barbell Hip Thrust)</p>
+            <p>바벨 브릿지(Barbell Bridge)</p>
+            <p>엉덩이(케이블)</p>
+            <p>케이블 스쿼트(Cable Squat)</p>
+            <p>케이블 킥 백(Cable Kick Back)</p>
+            <p>케이블 풀 쓰루(Cable Pull Through)</p>
+            <p>엉덩이(밴드)</p>
+            <p>밴드 사이드 스텝(Band Side Stpe)</p>
+            <p>밴드 글루트 킥 백(Band Glute Kick Back)</p>
+            <p>엉덩이(박스)</p>
+            <p>스텝박스 덤벨 런지(StpeBox Dumbbell Lunge)</p>
+            <p>엉덩이(TRX)</p>
+            <p>TRX스플릿 스쿼트(TRX Split Squat)</p>
+            <p>엉덩이(스미스머신)</p>
+            <p>스미스머신 동키킥(Smith Machine Donket Kick)</p>
+            <p>스미스머신 리버지 런지(Smith Machine Reverse Lunge)</p>
+            <p>스미스머신 크로스 런지(Smith Machine Cross Lunge)</p>
+            <p>엉덩이(짐볼)</p>
+            <p>짐볼 글루트 리프트(Gymball Glute Lift)</p>
+            <p>짐볼 브릿지(Gymball Bridge)</p>
+            <p>하체(바디웨이트)</p>
+            <p>프로그 스쿼트(Frog Squat)</p>
+            <p>클램 킥(Clam Kick)</p>
+            <p>크로스오버 런지(CrossOver Lunge)</p>
+            <p>로테이션 런지(Rotation Lunge)</p>
+            <p>런지 니 업(Lunge Knee Up)</p>
+            <p>점프 와이드 스쿼트(Jump Wide Squat)</p>
+            <p>하프 스쿼트(Half Squat)</p>
+            <p>무빙 스쿼트(Moving Squat)</p>
+            <p>더블 점프 스쿼트(Double Jump Squat)</p>
+            <p>더블 스쿼트(Double Squat)</p>
+            <p>토우 터치 스쿼트(Toe Touch Squat)</p>
+            <p>내로우 스쿼트(Narrow Squat)</p>
+            <p>스쿼트 크로스 니업(Squat Cross Knee Up)</p>
+            <p>점프 런지(Jump Lunge)</p>
+            <p>레그 서클(Leg Circles)</p>
+            <p>월 스쿼트(Wall Squat)</p>
+            <p>백 런지(Back Lunge)</p>
+            <p>컬시 런지(Curtsy Lunge)</p>
+            <p>파이어 하이드란트(사이드동키킥)(Fire Hydrants)</p>
+            <p>레터럴 레그리프트(Lateral LgeLift)</p>
+            <p>이너레그업(Inner Lge Up)</p>
+            <p>리어 런지(Rear Lunge)</p>
+            <p>워킹 런지(Walking Lunge)</p>
+            <p>힌두 스쿼트(Hindu Squat)</p>
+            <p>스쿼트 홀드(Squat Hold)</p>
+            <p>프런트 런지(Front Lunge)</p>
+            <p>스쿼트 점핑잭(Squat Jumping Jack)</p>
+            <p>점프 스쿼트(Jump Squat)</p>
+            <p>짐볼 스쿼트(Gymball Squat)</p>
+            <p>스텝업(Step Up)</p>
+            <p>사이드탭(사이드 스탭)(Side Tap)</p>
+            <p>사이드 런지(Side Lunge)</p>
+            <p>런지(Lunge)</p>
+            <p>피스톨 스쿼트(Pistol Squat)</p>
+            <p>와이드 스쿼트(Wide Squat)</p>
+            <p>스쿼트(Squat)</p>
+            <p>하체(머신)</p>
+            <p>핵프레스(Hack Press)</p>
+            <p>스티드 레그 컬(Seated Leg Curl)</p>
+            <p>버티컬 레그 프레스(vertical Leg Press)</p>
+            <p>원 레그 익스텐션(One Leg Extension)</p>
+            <p>플레이트 로디드 레그 프레스(Plate Loaded Leg Press)</p>
+            <p>아웃 싸이 머신(Out thigh Machine)</p>
+            <p>머신 스쿼트(Machine Squat)</p>
+            <p>원 레그 프레스(One Leg Press)</p>
+            <p>이너 싸이 머신(Inner Thigh Machine)</p>
+            <p>레그 프레스(Leg Press)</p>
+            <p>레그 컬(Leg Curl)</p>
+            <p>레그 익스텐션(Leg Extension)</p>
+            <p>하체(덤벨)</p>
+            <p>스모 스쿼트(Sumo Squat)</p>
+            <p>덤벰 고빌릿 스쿼트(Dumbbell Goblet Squat)</p>
+            <p>스플릿 스쿼트(Split Squat)</p>
+            <p>덤벨 와이드 스쿼트(Dumbbell Wide Squat)</p>
+            <p>덤벨 워킹 런지(Dumbbell Walking Lunge)</p>
+            <p>덤벨 스텝업(Dumbbell Step Up)</p>
+            <p>덤벨 런지(Bumbbell Lunge)</p>
+            <p>덤벨 스쿼트(Dumbbell Squat)</p>
+            <p>하체(바벨)</p>
+            <p>바벨 워킹 런지(Barbell Walking Lunge)</p>
+            <p>스티프 레그 데드리프트(Stiff Leg DeadLift)</p>
+            <p>오버헤드 런지(OverHead Lunge)</p>
+            <p>바벨 핵 스쿼트(Hack Squat)</p>
+            <p>트랩바 스쿼트(핵스바 스쿼트) (Trapbar Squat)</p>
+            <p>바벨 스티프 데드리프트(Barbell Stiff DeadLift)</p>
+            <p>바벨 스텝업(Barbell Step Up)</p>
+            <p>바벨 런지(Barbell Lunge)</p>
+            <p>바벨 오버헤드 스쿼트(Barbell Overhead Squat)</p>
+            <p>바벨 프론트 스쿼트(Barbell Front Squat)</p>
+            <p>바벨 스쿼트(Barbell Squat)</p>
+            <p>하체(케틀벨)</p>
+            <p>케틀벨 프런트 스쿼트(Kettlebell Front Squat)</p>
+            <p>케틀벨 고블릿 스쿼트(Kettlebell Goblet Squat)</p>
+            <p>케틀벨 스쿼트(Kettlebell Squat)</p>
+            <p>하체(밴드)</p>
+            <p>밴드 싱글 레그 데드리프트(Band Single Leg DeadLift)</p>
+            <p>밴드 스쿼트(Band Squat)</p>
+            <p>하체(박스)</p>
+            <p>박스 런지(Box Lunge)</p>
+            <p>하체(Trx)</p>
+            <p>Trx 런지(Trx lunge)</p>
+            <p>Trx 원 레그 스쿼트(Trx One Leg Squat)</p>
+            <p>Trx 스쿼트(Trx Squat)</p>
+            <p>하체(스미스머신)</p>
+            <p>스미스머신 원 레그 데드리프트(Smithmachine One Leg DeadLift)</p>
+            <p>스미스머신 스쿼트(Smithmachine Squat)</p>
+            <p>스미스머신 원 레그 스쿼트(Smithmachine One Leg Squat)</p>
+            <p>스미스머신 런지(Smithmachine Lunge)</p>
+            <p>하체(메디신볼)</p>
+            <p>MB 스쿼트(MB Squat)</p>
+            <p>종아리(바디웨이트)</p>
+            <p>원 레그 카프 레이즈(One Leg Calf Raise)</p>
+            <p>동키 위트 파트너(Donkey Calf Raise With Partner</p>
+            <p>동키 카프 레이즈(Donkey Calf Raise)</p>
+            <p>카프 레이즈(Calf Raise)</p>
+            <p>종아리(머신)</p>
+            <p>머신 카프 프레스(Machine Calf Press)</p>
+            <p>종아리(덤벨)</p>
+            <p>덤벨 카프레이즈(Dumbbell Calf Raise)</p>
+            <p>시티드 덤벨 카프레이즈(Seated Dumbbell Calf Raise)</p>
+            <p>종아리(바벨)</p>
+            <p>바벨 카프 레이즈(Barbell Calf Raise)</p>
+            <p>종아리(스미스머신)</p>
+            <p>스미스머신 카프 레이즈(Smithmachine Calf Raise)</p>
+            <p>전신(바디웨이트)</p>
+            <p>플랭크 투 푸쉬업(Plank to Push Up)</p>
+            <p>벤치 점핑 오버(Bench Jumping over)</p>
+            <p>인치웜(암워킹) 푸쉬업(Inch Worm(Arm Walking) Push Up</p>
+            <p>트래킹(Trekking)</p>
+            <p>조깅(Joging)</p>
+            <p>줄넘기(JumpRope)</p>
+            <p>슬로우 버피(Slow Burpee)</p>
+            <p>제자리 피칭(Pitching)</p>
+            <p>스쿼트 프레스(Squat Press)</p>
+            <p>푸쉬업 버피 점프(Push Up Berpee Jump)</p>
+            <p>힙 크로스 오버(Hip Cross Over)</p>
+            <p>실잭(Seal Jack)</p>
+            <p>버피 푸쉬업 점프 턱걸이(Burpee Push-Up Jump Pull-up)</p>
+            <p>트위스트 점프(Twist Jump)</p>
+            <p>스케이터 점프(Skater Jump)</p>
+            <p>슈퍼맨 크런치(Superman Crunch)</p>
+            <p>마운틴 클라이머 크로스(Mountain Climber Cross)</p>
+            <p>리버스 런지 힙 레이즈(Reverse Lunge Hip Raise)</p>
+            <p>리버스 런지 킥(Reverse Lunge Kick)</p>
+            <p>니 업 런지 백(Knee-up Lunge Back)</p>
+            <p>하이니(High Knee)</p>
+            <p>엘싯(L-Sit)</p>
+            <p>크랩 킥(Crab Kicks)</p>
+            <p>플랭크 탭(Plank Tap)</p>
+            <p>리버스 플랭크(Reverse Plank)</p>
+            <p>제트 업(Z-up)</p>
+            <p>플랭크 레그 리프트(Plank LegLift)</p>
+            <p>플랭크 사이드 킥(Plank Side Kick)</p>
+            <p>플랭크 트위스트 핸즈업(Plank Twist Hands Up)</p>
+            <p>플랭크 점핑잭(Plank Jumping Jack)</p>
+            <p>사이드 플랭크 힙딥(Side Plank Hip Dips)</p>
+            <p>레이즈 플랭크(Raise Plank)</p>
+            <p>버트 킥(Butt Kick)</p>
+            <p>크로스 잭(Cross Jack)</p>
+            <p>프로그점프(Frog Jump)</p>
+            <p>턱 점프(Tuck Jump)</p>
+            <p>하프 버피(Half Burpee)</p>
+            <p>사이드 플랭크 레그리프트(Side Plank LegLift)</p>
+            <p>더블 니 업(Double Knee Up)</p>
+            <p>쇼트 피치(Short Pitch)</p>
+            <p>점프 로프(Jump Rope)</p>
+            <p>버피 쓰리 점프(Burpee Three Jump)</p>
+            <p>러닝 사이드 런지(Running Side Lunge)</p>
+            <p>버피 점프(Burpee Jump)</p>
+            <p>플랭크 엘보우 팜(Plank Elbow Palm)</p>
+            <p>플랭크(Plank)</p>
+            <p>피티점프(PT Jump)</p>
+            <p>마운틴 클라이머(Mountain Climbers)</p>
+            <p>박스 점프(Box Jump)</p>
+            <p>점핑 잭(Jumping Jack)</p>
+            <p>버피(Burpee)</p>
+            <p>전신(덤벨)</p>
+            <p>덤벨 스내치(Dumbbell Snatch)</p>
+            <p>덤벨 스쿼트 프레스(Dumbbell Squat Press)</p>
+            <p>전신(바벨)</p>
+            <p>바벨 점프 스쿼트(Barbell Jump Squat)</p>
+            <p>컨벤셔널 데드 리프트(Conventinal DeadLift)</p>
+            <p>전신(케틀벨)</p>
+            <p>케틀벨 어라운드 더 바디(Kettlebell Around The Body)</p>
+            <p>얼터네이팅 케틀벨 스윙(Alternating Kettlebell Swing)</p>
+            <p>케틀벨 원암 스윙(Kettlebell One Arm Swing)</p>
+            <p>케틀벨 스내치(Kettlebell Snatch)</p>
+            <p>케틀벨 클린 앤 저크(Kettlebell Clean and Jerk)</p>
+            <p>케틀벨 터키쉬겟 업(Kettlebell Turkishget Up)</p>
+            <p>케틀벨 윈드밀(Kettlebell Windmill)</p>
+            <p>케틀벨 저크(Kettlebell Jerk)</p>
+            <p>케틀벨 스윙(Kettlebell Swing)</p>
+            <p>전신(박스)</p>
+            <p>스텝박스 좌우 점프(Stepbox Left Right Jump)</p>
+            <p>스텝박스 버피 점프(Stepbox Burpee Jump)</p>
+            <p>스텝박스 마운틴 클라이머(Step Mountain Climber)</p>
+            <p>박스 점프 오버(Box Jump Over)</p>
+            <p>싱글 레그 박스 점프(Single Leg Box Jump)</p>
+            <p>버피 박스 점프(Burpee Box Jump)</p>
+            <p>스텝 오버(Step Over)</p>
+            <p>스텝 업 니 드라이브(Step-Up Knee Drive)</p>
+            <p>전신(TRX)</p>
+            <p>TRX 사이드 플랭크(TRX Side Plank)</p>
+            <p>TRX 플랭크(TRX Plank)</p>
+            <p>TRX 슈퍼맨(TRX Superman)</p>
+            <p>TRX 파이크(TRX Pike)</p>
+            <p>TRX 팬듈럼(TRX Pendulum)</p>
+            <p>TRX 마운틴 클라이머(TRX Mountain Climber)</p>
+            <p>전신(짐볼)</p>
+            <p>짐볼 패스(Gymball Pass)</p>
+            <p>짐폴 플랭크(Gymball Plank)</p>
+            <p>짐볼 파이크(Gymball Pike)</p>
+            <p>전신(메디신볼)</p>
+            <p>볼슬램(Ball Slam)</p>
+            <p>MB 로테이셔널 런지(MB Rotationnal Lunch)</p>
+            <p>MB 슬램(MB Slam)</p>
+            <p>MB 월볼샷(MB Wall Ball shot)</p>
+            <p>코어(바디웨이트)</p>
+            <p>플랭크 로테이션(Plank Rotation)</p>
+            <p>할로우(Hollow)</p>
+            <p>사이드 쏘라식 로테이션(Side Thoracic Rotation)</p>
+            <p>버드 도그(버드독)(Bird Dog)</p>
+            <p>데드 버그(Dead Bug)</p>
+            <p>힙 힌지(Hip Hinge)</p>
+            <p>플로어 T 레이즈(Floor T Raise)</p>
+            <p>스파이더 맨(Spider Man)</p>
+            <p>베어 워크(Bear Walk)</p>
+            <p>나란히 플랭크(Side By Side Plank)</p>
+        </div>
+    </body>
+</html>

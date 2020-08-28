@@ -1,0 +1,26 @@
+img{
+    width: 350px;
+    height: 100px;
+    margin: 80px;
+    padding: 80px;
+}
+
+#logo{
+    text-align: center;
+
+}
+
+.g-signin2{
+    display: inline-block;
+}
+
+#login{
+    text-align: center;
+    padding: 30px;
+    border: 20px;
+ }
+p{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
